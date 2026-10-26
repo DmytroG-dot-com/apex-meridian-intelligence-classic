@@ -1,0 +1,26 @@
+/* Brand palette drawn from Apex Meridian Intelligence's main site. */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary: #171717;
+  --secondary: #f8f3ed;
+  --muted: #67605a;
+  --border: #dbd0c5;
+  --accent: #fb921f;
+  --accent-deep: #c86600;
+  --card: #ffffff;
+  --deep: #11141c;
+  --deep-2: #39302a;
+  --button-ink: #111111;
+}
+
+.dark,
+body:has(.theme-toggle-input:checked) {
+  --background: #11141c;
+  --foreground: #f8fafd;
+  --primary: #171717;
+  --secondary: #39302a;
+  --muted: #b8c4d4;
+  --border: #39302a;
+  --card: #39302a;
+}
