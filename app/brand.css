@@ -28,12 +28,12 @@ body:has(.theme-toggle-input:checked) {
 /* The source lockup is much taller than the other client logos. Keep it fully
    visible inside the fixed header instead of letting its intrinsic ratio spill
    into the hero. */
-.brand-lockup {
-  width: min(210px, 19vw);
+.site-header .brand-logo .brand-lockup {
+  width: min(160px, 19vw);
   height: 62px;
 }
 
-.brand-asset {
+.site-header .brand-logo .brand-lockup .brand-asset {
   width: auto;
   max-width: 100%;
   height: auto;
@@ -41,8 +41,8 @@ body:has(.theme-toggle-input:checked) {
 }
 
 @media (max-width: 820px) {
-  .brand-lockup {
-    width: min(176px, 43vw);
+  .site-header .brand-logo .brand-lockup {
+    width: min(132px, 34vw);
     height: 48px;
   }
 }
